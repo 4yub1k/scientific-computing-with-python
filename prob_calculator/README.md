@@ -28,13 +28,22 @@ For example, if you want to determine the probability of getting at least two re
 
 Here is how you would call the `experiment` function based on the example above with 2000 experiments:
 
+### Usage example
 ```python
 hat = Hat(black=6, red=4, green=3)
-probability = experiment(hat=hat,
-                  expected_balls={"red":2,"green":1},
-                  num_balls_drawn=5,
-                  num_experiments=2000)
+probability = experiment(
+    hat=hat,
+    expected_balls={"red": 2, "green": 1},
+    num_balls_drawn=5,
+    num_experiments=2000
+)
+print(probability)
 ```             
+### Output
+Since this is based on random draws, the probability will be slightly different each time the code is run.
+```
+0.3495
+```
 
 ### Testing
 The unit tests for this project are in test_module.py.
