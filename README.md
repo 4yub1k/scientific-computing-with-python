@@ -7,4 +7,4 @@ Python is one of the most popular, flexible programming languages today. You can
 
 This repo contains Solutions to the course "**Scientific Computing with Python**".
 
-**Make sure you first attemp the Projects by yourself. Use my solutions for understanding the projects problems only. Don't COPY PASTE.**
+**Make sure you first attempt the Projects by yourself. Use my solutions for understanding the problems only. Don't COPY PASTE.**
